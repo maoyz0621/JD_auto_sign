@@ -11,6 +11,7 @@ on:
     - cron: 35/5 22 * * *
   watch:
     types: started
+  workflow_dispatch:
     
 env:
   JD_COOKIE: ${{ secrets.JD_COOKIE }}
